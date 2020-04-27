@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+        <class name="com.aptus.website.WebsiteAutomation.TC_AddNewEmployee_001"/>
+       <class name="com.aptus.website.WebsiteAutomation.TC_AddNewEmployee_002"/>
+      <class name="com.aptus.website.WebsiteAutomation.TC_AddNewEmployee_003"/>
+      <class name="com.aptus.website.WebsiteAutomation.TC_AddNewEmployee_004"/>
+      <class name="com.aptus.website.WebsiteAutomation.TC_AddTwoEmployeeAds_001"/>
+      <class name="com.aptus.website.WebsiteAutomation.TC_DeleteOneEmployee_001"/>
+      <class name="com.aptus.website.WebsiteAutomation.TC_AddTenEmployeesDeleted_001"/> 
+      
+      <!--  <class name="com.aptus.website.WebsiteAutomation.TC_AddNewEmployeeNegative_001"/>
+        <class name="com.aptus.website.WebsiteAutomation.TC_AddNewEmployeeNegative_002"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
